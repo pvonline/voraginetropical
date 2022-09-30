@@ -1,0 +1,71 @@
+/** Url fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;400&display=swap');
+
+body{
+    width:100%;
+    background-image:url(../IMAGENES/fondoyu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+h1{
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+.container {
+  width: 50%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 2.5px 0;
+}
+
+.header a {
+color: white;
+text-decoration: none;
+}
+
+.somos-nav-container {
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.somos {
+  letter-spacing: 15px;
+  font-size: 1.3em;
+}
+
+
+
+
+/*------------- inicio para los moviles -----------*/
+
+@media screen and (max-width:1100px){
+  form{
+      width: 50%;
+  }
+}
+
+@media screen and (max-width:600px){
+  form{
+      width: 60%;
+  }
+}
+
+@media screen and (max-width:450px){
+  form{
+      width: 80%;
+  }
+}
+
+@media screen and (max-width:300px){
+  form{
+      width: 90%;
+  }
+}
+
+/*------------- final para los moviles -----------*/
